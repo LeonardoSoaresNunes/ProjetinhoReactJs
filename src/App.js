@@ -16,7 +16,7 @@ function App(props) {
         </button>
         
         <div className=" collapse navbar-collapse "  id="navbarMainToggler">
-          <div className="navbar-nav m-lg-auto   ">
+          <div className="navbar-nav m-lg-auto">
             <a className="nav-item nav-link" href="google">Home</a>
             <a className="nav-item nav-link" href="google">Sobre</a>
             <a className="nav-item nav-link" href="google">Blog</a>
@@ -24,9 +24,14 @@ function App(props) {
             <a className="nav-item nav-link" href="googele">Login</a>
           </div>
         </div>
-      
       </nav>
+      <footer className="footer bg-dark text-light text-center">
+      <h4>Leonardo Nunes- AGP</h4>
+
+      </footer>
     </div>
+
+  
 
 
   );
